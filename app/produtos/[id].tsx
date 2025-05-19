@@ -10,7 +10,7 @@ export default function EditarProduto() {
   const produtoExistente = produtos.find(p => p.id === id);
 
   if (!produtoExistente) {
-    return <View><Text>Produto não encontrado.</Text></View>;
+    return <View style={{marginTop: 20}} ><Text style={{fontSize: 20, margin: "auto", }}>Produto não encontrado.</Text></View>;
   }
 
   const atualizarProduto = (dadosAtualizados: any) => {

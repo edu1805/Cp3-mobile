@@ -1,11 +1,24 @@
 {
   "expo": {
+    "name": "estoqueApp",
+    "slug": "estoqueApp",
     "scheme": "acme",
     "plugins": [
       "expo-router",
       "expo-barcode-scanner"
     ],
-    "name": "estoqueApp",
-    "slug": "estoqueApp"
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "assetBundlePatterns": ["**/*"]
   }
 }
