@@ -1,20 +1,49 @@
-# Expo Router Example
+# 📦 Projeto de Cadastro de Produtos
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+### Integrantes
+- Eduardo Barriviera - RM555309
+- Thiago Freitas - RM556795
 
-## 🚀 How to use
+---
 
-```sh
-npx create-expo-app -e with-router
+### Este projeto é um aplicativo móvel criado com React Native e Expo Router, que permite cadastrar, editar e gerenciar produtos em estoque. Ele inclui funcionalidades como:
+- Formulário de cadastro e edição de produtos
+- Leitura de código de barras via câmera
+- Formatação de datas
+- Listagem e persistência em memória (simulação de banco de dados)
+
+---
+
+## 🚀 Tecnologias Utilizadas:
+| Tecnologia                     | Finalidade                                      |
+| ------------------------------ | ----------------------------------------------- |
+| **React Native**               | Framework principal para desenvolvimento mobile |
+| **Expo Router**                | Navegação e estruturação das rotas no projeto   |
+| **Expo Camera**                | Acesso à câmera para escanear códigos de barras |
+| **react-native-mask-text**     | Máscara para formatação de datas                |
+| **date-fns**                   | Manipulação e validação de datas                |
+| **react-native-picker-select** | Dropdown estilizado para seleção de estado      |
+| **TypeScript**                 | Tipagem estática para maior segurança           |
+
+---
+
+## ⚙️ Como Rodar o Projeto
+
+### 1. Pré-requisitos
+- Node.js
+- Expo CLI
+- Android Studio ou emulador físico com Expo Go
+
+### 2. Clonar o Repositório
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 ```
-
-## Deploy
-
-Deploy on all platforms with Expo Application Services (EAS).
-
-- Deploy the website: `npx eas-cli deploy` — [Learn more](https://docs.expo.dev/eas/hosting/get-started/)
-- Deploy on iOS and Android using: `npx eas-cli build` — [Learn more](https://expo.dev/eas)
-
-## 📝 Notes
-
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+### 3. Instalar as Dependências
+```bash
+npm install
+```
+### 4. Rodar o Projeto
+```bash
+npm start
+```
