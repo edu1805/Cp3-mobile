@@ -17,8 +17,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.eduu10.estoqueApp"
     },
-    "assetBundlePatterns": ["**/*"]
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "df5869b5-c1e5-45fa-ad75-113f00dcdcbd"
+      }
+    }
   }
 }
