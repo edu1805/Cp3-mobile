@@ -5,7 +5,7 @@
     "scheme": "acme",
     "plugins": [
       "expo-router",
-      "expo-barcode-scanner"
+      "expo-camera"
     ],
     "icon": "./assets/icon.png",
     "splash": {
